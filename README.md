@@ -11,6 +11,18 @@ Summary: pylint-common is a Pylint plugin to improve Pylint error analysis of th
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pylint-common-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pylint-common-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/pylint-common-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pylint-common-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pylint-common-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pylint-common-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pylint-common/badges/version.svg)](https://anaconda.org/conda-forge/pylint-common)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pylint-common/badges/downloads.svg)](https://anaconda.org/conda-forge/pylint-common)
+
 Installing pylint-common
 ========================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `pylint-common` available on your 
 ```
 conda search pylint-common --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pylint-common-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pylint-common-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pylint-common-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pylint-common-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pylint-common-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pylint-common-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pylint-common/badges/version.svg)](https://anaconda.org/conda-forge/pylint-common)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pylint-common/badges/downloads.svg)](https://anaconda.org/conda-forge/pylint-common)
 
 
 Updating pylint-common-feedstock
