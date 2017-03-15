@@ -1,6 +1,6 @@
 {% set name = "pylint-common" %}
-{% set version = "0.2.2" %}
-{% set sha256 = "0abe78dc9259927fcad69f2f8220f8c70da62d32bf8393b8768f5ef6c9870e11" %}
+{% set version = "0.2.5" %}
+{% set sha256 = "3276b9e4db16f41cee656c78c74cfef3da383e8301e5b3b91146586ae5b53659" %}
 
 package:
   name: {{ name|lower }}
@@ -23,14 +23,7 @@ requirements:
   run:
     - python
     - pylint >=1.0
-    # Was not explicitly listed.
-    # However it is being imported.
-    # So have added it as a dependency.
-    # See linked issue for details.
-    #
-    # https://github.com/landscapeio/pylint-common/issues/2
-    #
-    - pylint-plugin-utils
+    - pylint-plugin-utils >=0.2.6
 
 test:
   imports:
@@ -39,6 +32,7 @@ test:
 about:
   home: https://github.com/landscapeio/pylint-common
   license: GPL 2
+  license_file: LICENSE
   summary: 'pylint-common is a Pylint plugin to improve Pylint error analysis of the standard Python library'
 
 extra:
